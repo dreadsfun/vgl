@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{c7698aa5-ebac-4796-906d-252a8202b9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{20170222-9d75-4cf2-99f3-f1783f7c3bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enumerations">
+      <UniqueIdentifier>{6ce55d47-6502-41b6-90f9-ac01174f45be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enBufferObject.hpp">
+      <Filter>Header Files\Enumerations</Filter>
+    </ClInclude>
+    <ClInclude Include="vorVortexGL.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorBufferArrayObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorBufferObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorFramebufferObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorProgramObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorProgramPipelineObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorQueryObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorRenderbufferObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorSamplerObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorShaderObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorSyncObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorTextureObject.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="vorGLObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorGLObjectPool.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorGLPlusInit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorGLPlusShared.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vorBufferArrayObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorBufferObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorFramebufferObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorProgramObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorProgramPipelineObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorQueryObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorRenderbufferObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorSamplerObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorSyncObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorTextureObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vorAutoLinkage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vorGLObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vorGLObjectPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vorGLPlusInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vorShaderObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
